@@ -1,0 +1,17 @@
+version: "3.9"
+
+volumes:
+  vrising-data:
+    driver: local
+    driver_opts:
+      type: 'none'
+      o: 'bind'
+      device: '/gameData/vrising'
+
+services:
+  vrising:
+    build: .
+    ports:
+      - "8341:8341/udp"
+    volumes:
+      - vrising-data:/home/vrising/persistentData

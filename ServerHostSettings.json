@@ -1,0 +1,23 @@
+﻿{
+  "Name": "Pyroteks V Rising Server",
+  "Description": "",
+  "Port": 8341,
+  "QueryPort": 8342,
+  "MaxConnectedUsers": 10,
+  "MaxConnectedAdmins": 1,
+  "ServerFps": 64,
+  "SaveName": "PyrosWorld",
+  "Password": "MyPassword",
+  "Secure": true,
+  "ListOnMasterServer": false,
+  "AutoSaveCount": 50,
+  "AutoSaveInterval": 600,
+  "GameSettingsPreset": "",
+  "AdminOnlyDebugEvents": true,
+  "DisableDebugEvents": false,
+  "Rcon": {
+    "Enabled": false,
+    "Port": 25575,
+    "Password": ""
+  }
+}
